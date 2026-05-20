@@ -1,0 +1,4 @@
+#Wed May 13 23:56:50 WEST 2026
+base.0=C\:\\Users\\Guilherme Carvalho\\Desktop\\University\\Mestrado\\1º Ano\\2º Semestre\\Programação Avançada de Dispositivos Móveis\\02_Projeto\\D12DiceRoller\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

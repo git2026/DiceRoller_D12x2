@@ -1,0 +1,8 @@
+com.padm.d12x2
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_launcher_monochrome
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme_D12DiceRoller

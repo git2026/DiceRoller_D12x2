@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- Manifesto da aplicação Dice Roller -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.padm.d12x2"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->INJECTED
+9        android:minSdkVersion="24"
+9-->INJECTED
+10        android:targetSdkVersion="37" />
+10-->INJECTED
+11
+12    <permission
+12-->[androidx.core:core:1.18.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\bf2f50022dab7d0f5bf545ab13b803f8\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+13        android:name="com.padm.d12x2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+13-->[androidx.core:core:1.18.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\bf2f50022dab7d0f5bf545ab13b803f8\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+14        android:protectionLevel="signature" />
+14-->[androidx.core:core:1.18.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\bf2f50022dab7d0f5bf545ab13b803f8\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+15
+16    <uses-permission android:name="com.padm.d12x2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+16-->[androidx.core:core:1.18.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\bf2f50022dab7d0f5bf545ab13b803f8\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+16-->[androidx.core:core:1.18.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\bf2f50022dab7d0f5bf545ab13b803f8\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+17
+18    <application
+18-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:5:5-24:19
+19        android:allowBackup="true"
+19-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.18.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\bf2f50022dab7d0f5bf545ab13b803f8\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+22-->INJECTED
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:7:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:9:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:8:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:10:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.D12DiceRoller" >
+28-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:11:9-51
+29
+30        <!-- Atividade principal, bloqueada em modo retrato -->
+31        <activity
+31-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:14:9-23:20
+32            android:name="com.padm.d12x2.MainActivity"
+32-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:15:13-41
+33            android:exported="true"
+33-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:16:13-36
+34            android:screenOrientation="portrait"
+34-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:17:13-49
+35            android:theme="@style/Theme.D12DiceRoller" >
+35-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:18:13-55
+36            <intent-filter>
+36-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:19:13-22:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:20:17-69
+37-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:20:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:21:17-77
+39-->C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\AndroidManifest.xml:21:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->[androidx.compose.ui:ui-tooling-android:1.11.1] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\079ccb8b96ef7f24314525f89df761c7\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
+43            android:name="androidx.compose.ui.tooling.PreviewActivity"
+43-->[androidx.compose.ui:ui-tooling-android:1.11.1] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\079ccb8b96ef7f24314525f89df761c7\transformed\ui-tooling\AndroidManifest.xml:24:13-71
+44            android:exported="true" />
+44-->[androidx.compose.ui:ui-tooling-android:1.11.1] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\079ccb8b96ef7f24314525f89df761c7\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+45        <activity
+45-->[androidx.compose.ui:ui-test-manifest:1.11.1] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\9ec88611ca13a4d6902bdd0deda48a28\transformed\ui-test-manifest-1.11.1\AndroidManifest.xml:23:9-26:79
+46            android:name="androidx.activity.ComponentActivity"
+46-->[androidx.compose.ui:ui-test-manifest:1.11.1] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\9ec88611ca13a4d6902bdd0deda48a28\transformed\ui-test-manifest-1.11.1\AndroidManifest.xml:24:13-63
+47            android:exported="true"
+47-->[androidx.compose.ui:ui-test-manifest:1.11.1] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\9ec88611ca13a4d6902bdd0deda48a28\transformed\ui-test-manifest-1.11.1\AndroidManifest.xml:25:13-36
+48            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+48-->[androidx.compose.ui:ui-test-manifest:1.11.1] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\9ec88611ca13a4d6902bdd0deda48a28\transformed\ui-test-manifest-1.11.1\AndroidManifest.xml:26:13-76
+49
+50        <uses-library
+50-->[androidx.window:window:1.5.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\3141d9e2981a44e6e375ce617cffcbcc\transformed\window-1.5.0\AndroidManifest.xml:23:9-25:40
+51            android:name="androidx.window.extensions"
+51-->[androidx.window:window:1.5.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\3141d9e2981a44e6e375ce617cffcbcc\transformed\window-1.5.0\AndroidManifest.xml:24:13-54
+52            android:required="false" />
+52-->[androidx.window:window:1.5.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\3141d9e2981a44e6e375ce617cffcbcc\transformed\window-1.5.0\AndroidManifest.xml:25:13-37
+53        <uses-library
+53-->[androidx.window:window:1.5.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\3141d9e2981a44e6e375ce617cffcbcc\transformed\window-1.5.0\AndroidManifest.xml:26:9-28:40
+54            android:name="androidx.window.sidecar"
+54-->[androidx.window:window:1.5.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\3141d9e2981a44e6e375ce617cffcbcc\transformed\window-1.5.0\AndroidManifest.xml:27:13-51
+55            android:required="false" />
+55-->[androidx.window:window:1.5.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\3141d9e2981a44e6e375ce617cffcbcc\transformed\window-1.5.0\AndroidManifest.xml:28:13-37
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\e7e2c2c7bad4c4a23a14b93f8276d115\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\e7e2c2c7bad4c4a23a14b93f8276d115\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+59            android:authorities="com.padm.d12x2.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\e7e2c2c7bad4c4a23a14b93f8276d115\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\e7e2c2c7bad4c4a23a14b93f8276d115\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\e7e2c2c7bad4c4a23a14b93f8276d115\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\e7e2c2c7bad4c4a23a14b93f8276d115\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\e7e2c2c7bad4c4a23a14b93f8276d115\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\c251448735b0b0314cd4558ca088255b\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\c251448735b0b0314cd4558ca088255b\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\c251448735b0b0314cd4558ca088255b\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+69                android:value="androidx.startup" />
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+70        </provider>
+71
+72        <receiver
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+73            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+74            android:directBootAware="false"
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+75            android:enabled="true"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+76            android:exported="true"
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+77            android:permission="android.permission.DUMP" >
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+79                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+82                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+85                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+88                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guilherme Carvalho\.gradle\caches\9.5.1\transforms\60a52df12d877851c923abf6cc2f5425\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+89            </intent-filter>
+90        </receiver>
+91    </application>
+92
+93</manifest>

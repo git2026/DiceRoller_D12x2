@@ -1,0 +1,8 @@
+com.padm.d12x2.app-updated_navigation_xml-0 C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\build\generated\updated_navigation_xml\release
+com.padm.d12x2.app-packageReleaseResources-1 C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.padm.d12x2.app-packageReleaseResources-2 C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.padm.d12x2.app-merged-not-compiled-resources-3 C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\build\intermediates\merged-not-compiled-resources\release
+com.padm.d12x2.app-release-4 C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.padm.d12x2.app-main-5 C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\main\res
+com.padm.d12x2.app-release-6 C:\Users\Guilherme Carvalho\Desktop\University\Mestrado\1º Ano\2º Semestre\Programação Avançada de Dispositivos Móveis\02_Projeto\D12DiceRoller\app\src\release\res
+gradleHome-0 C:\Users\Guilherme Carvalho\.gradle
