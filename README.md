@@ -1,4 +1,4 @@
-# D12 × 2 - Dice Roller
+# Dice Roller - D12 × 2
 
 Aplicação Android que simula o lançamento de dois dados de 12 faces (D12) com renderização 3D em tempo real, desenvolvida em Kotlin com Jetpack Compose.
 
